@@ -1,0 +1,10 @@
+#!/bin/bash
+#!/usr/bin/env bash
+
+if [ ! -f $(pwd)/wmake ]; then
+    echo "Missing wmake file!"
+    exit 1
+fi
+
+$(pwd)/wmake $1
+
