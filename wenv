@@ -1,0 +1,9 @@
+#!/bin/bash
+#!/usr/bin/env bash
+
+if [ ! -f $(pwd)/wenv ]; then
+    echo "Missing wenv file!"
+    exit 1
+fi
+
+source wenv
