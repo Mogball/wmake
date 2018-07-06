@@ -6,4 +6,4 @@ if [ ! -f $(pwd)/wenv ]; then
     exit 1
 fi
 
-source wenv
+source $(pwd)/wenv
